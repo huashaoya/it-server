@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+<!--    <context:component-scan base-package="per.huashao.work2" />-->
+
+<!--    <bean name="collage" class="per.huashao.work3.Collage">-->
+<!--        <property name="id" value="1"></property>-->
+<!--        <property name="name" value="gdpu"></property>-->
+<!--    </bean>-->
+
+<!--    <bean name="student" class="per.huashao.work3.Student">-->
+<!--        <property name="name" value="huashao"></property>-->
+<!--        <property name="id" value="1"></property>-->
+<!--        <property name="age" value="18"></property>-->
+<!--        <property name="collage" ref="collage"></property>-->
+<!--        <property name="courses">-->
+<!--            <list>-->
+<!--                <value>java</value>-->
+<!--                <value>c++</value>-->
+<!--                <value>javaScript</value>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--        <bean name="collage" class="per.huashao.work3.Collage">-->
+<!--            <constructor-arg name="id" value="2"></constructor-arg>-->
+<!--            <constructor-arg name="name" value="gdpu"></constructor-arg>-->
+<!--        </bean>-->
+
+<!--        <bean name="student" class="per.huashao.work3.Student">-->
+<!--            <constructor-arg name="age" value="18"></constructor-arg>-->
+<!--            <constructor-arg name="id" value="2"></constructor-arg>-->
+<!--            <constructor-arg name="name" value="huashao2"></constructor-arg>-->
+<!--            <constructor-arg name="courses">-->
+<!--                <list>-->
+<!--                    <value>java</value>-->
+<!--                    <value>c++</value>-->
+<!--                    <value>javaScript</value>-->
+<!--                </list>-->
+<!--            </constructor-arg>-->
+<!--            <constructor-arg name="collage" ref="collage"></constructor-arg>-->
+<!--        </bean>-->
+
+    <!--
+       自定义容器使用的配置文件路径
+       context-param: 上下文参数，给监听器提供参数的
+   -->
+
+
+
+
+</beans>
